@@ -1,0 +1,68 @@
+ body {
+	background: url("foodback3.jpg");
+	background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  transition-duration: 3s;
+} 
+h1 {
+	text-align: center;
+	color: #4d0000;
+	font-size: 30pt;
+}
+
+@keyframes box {
+	from {background-color: gray;}
+	to {background: url("foodback3.jpg")};
+}
+.card {
+  padding-top: 30px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 40%;
+  background-color: rgb(204, 153, 102, 0.8);
+  transform: translate(0px, 100px);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card .container{
+  visibility: hidden;
+  display: none;
+
+}
+.card:hover > .container {
+  transition: 1s;
+  background-color: yellow;
+  visibility: visible;
+  display: unset;
+}
+
+.card-image{
+  width: 300px;
+  
+}
+.container {
+  padding: 2px 2px;
+
+}
+
+.focus:focus {
+  background-color: yellow;
+  visibility: visible;
+  display: unset;
+}
+
+.text {
+  background-color:#dfbf9f;
+  padding-right: 10%;	
+}
+
+.textTwo {
+	background-color:#cc9966;
+}

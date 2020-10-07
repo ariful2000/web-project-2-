@@ -1,0 +1,33 @@
+
+body {
+    background-image: url(RN-Website-Header_BG.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition-duration: 2s;
+}
+
+.h1 {
+    text-align: center;
+    padding-top: 15%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    font: bold;
+    color:rgb(255, 254, 254);
+}
+
+.h2 {
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 40px;
+    font: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color:rgb(255, 244, 244);
+}
+
+.link {
+    color: rgb(179, 167, 248);
+    text-decoration: none;
+}
